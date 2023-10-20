@@ -25,27 +25,27 @@ module.exports = {
 
 ## Options
 
-| Name  | Description |
-| ------------- | ------------- |
-| templatePrefix  | Prefix for classes defining Grid Templates. Default is "tmp".  |
-| areaPrefix  | Prefix for classes defining Grid Areas. Default is "ga".  |
-| defaultUnit  | The unit of grid ceil. Default is "px". |
+| Name | Default | Description |
+| ------------- | ------------- | ------------- |
+| templatePrefix | `tmp` | Prefix for classes defining Grid Templates |
+| areaPrefix  | `ga` | Prefix for classes defining Grid Areas |
+| defaultUnit | `px` | The unit of grid ceil |
 
-## Using
+## Usage
 
 | Shortcut  | Description |
 | ------------- | ------------- |
-| .  | Just space |
-| \<name>  | An element that fills 1 cell |
-| \<name>*2  | An element that fills 2 cells |
-| \<name>*  | An element that fills free cells, at least 1 cell. Multiple elements can fill equal space |
-| # | An empty cell (.) that can have the same effect as a regular cell |
-| \<name1>..\<name2> | Equivalent to "\<name1>.#*.\<name2>" |
-| @100  | Row size is 100px (default unit is px). Supports all units |
-| @50%^max  | Creates a "minmax(50%, max-content)" row size. Also accepts min (min-content) |
-| @50%^  | minmax(50%, auto) |
-| @^50%  | minmax(auto, 50%) |
-| / max^1fr*2  |  Column sizes defines after "/" like by default |
+| `.`  | Just space |
+| `<name>`  | An element that fills 1 cell |
+| `<name>*2`  | An element that fills 2 cells |
+| `<name>*`  | An element that fills free cells, at least 1 cell. Multiple elements can fill equal space |
+| `#` | An empty cell (.) that can have the same effect as a regular cell |
+| `<name1>..<name2>` | Equivalent to "\<name1>.#*.\<name2>" |
+| `@100`  | Row size is 100px (default unit is px). Supports all units |
+| `@50%^max`  | Creates a "minmax(50%, max-content)" row size. Also accepts min (min-content) |
+| `@50%^`  | minmax(50%, auto) |
+| `@^50%`  | minmax(auto, 50%) |
+| `/ max^1fr*2`  |  Column sizes defines after "/" like by default |
 
 ## Example 
 

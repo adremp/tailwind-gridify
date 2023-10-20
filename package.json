@@ -1,0 +1,31 @@
+{
+  "name": "@adremp/tailwind-gridify",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Tailwind CSS plugin to generate grid template areas",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test",
+		"clean": "rd /s /q lib",
+		"build": "npm run clean && tsc"
+  },
+	"files": ["lib/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adremp/tailwind-gridify.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "grid",
+    "grid-area"
+  ],
+  "author": "Andrey Podlesnyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adremp/tailwind-gridify/issues"
+  },
+  "homepage": "https://github.com/adremp/tailwind-gridify#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
